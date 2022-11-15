@@ -1,0 +1,14 @@
+org\example\stepDefinitions\D01_registerStepDef.class
+org\example\pages\productPage.class
+org\example\pages\loginPage.class
+org\example\stepDefinitions\D07_followUsStepDef.class
+org\example\stepDefinitions\D08_WishlistStepDef.class
+org\example\pages\registerPage.class
+org\example\stepDefinitions\D02_loginStepDef.class
+org\example\stepDefinitions\D06_homeSlidersStepDef.class
+org\example\pages\cartPage.class
+org\example\pages\homePage.class
+org\example\stepDefinitions\Hooks.class
+org\example\testRunner\runners.class
+org\example\pages\resetPasswordPage.class
+org\example\pages\wishlistPage.class

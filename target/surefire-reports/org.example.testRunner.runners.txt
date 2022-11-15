@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: org.example.testRunner.runners
+-------------------------------------------------------------------------------
+Tests run: 19, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 259.201 s <<< FAILURE! - in org.example.testRunner.runners
+org.example.testRunner.runners.runScenario  Time elapsed: 18.333 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"div[class="result"]"}
+  (Session info: chrome=107.0.5304.107)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'TW-1056', ip: '192.168.1.5', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8176a17cee3aaa3bc84c6d0a42669e8, findElement {using=css selector, value=div[class="result"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\HESHAM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e8176a17cee3aaa3bc84c6d0a42669e8
+
+org.example.testRunner.runners.runScenario  Time elapsed: 7.703 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+org.example.testRunner.runners.runScenario  Time elapsed: 8.064 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+org.example.testRunner.runners.runScenario  Time elapsed: 7.079 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
